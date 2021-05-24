@@ -1,0 +1,274 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    width: 1000px;
+    margin: 0 auto;
+}
+
+/* HEADER SECTION */
+
+header {
+    height: 15vh;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+nav div{
+    float: left;
+}
+
+nav img{
+    width: 60px;
+    height: 60px;
+}
+
+nav ul{
+    font-family: 'Questrial', sans-serif;
+    list-style: none;
+    float: right;
+    padding: 20px;
+    color: #3556dbd3;
+}
+
+nav ul li{
+    display: inline-block;
+    font-size: 20px;
+    margin-left: 35px;
+}
+nav ul li:hover{
+    color: #000;
+}
+
+nav ul li:last-child{
+    border: 1px solid #3556dbd3;
+    border-radius: 3px;
+    padding: 8px;
+}
+
+nav ul li:last-child:hover{
+    background-color: #3556dbd3;
+    color: #fff;
+}
+
+nav ul li i{
+    padding: 6px 0 6px 8px;
+}
+
+/* IST SECTION */
+
+.ist-section{
+    margin: 120px 0;
+}
+
+.box{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.box h1{
+    font-family: 'Questrial', sans-serif;
+    color: #000;
+    font-size: 3.5rem;
+    font-weight: 900;
+    line-height: 1.1;
+    margin: 0 0 30px 0;
+}
+
+.box p, .trd-div1 p, .sndem,
+.trd-div2 p, .testimonial p,
+.last-section p{
+    font-family: 'Gelasio', serif;
+    font-size: 1.27rem;
+    letter-spacing: .5px;
+    word-spacing: 1px;
+    line-height: 1.5;
+    margin: 20px 0 45px;
+    color: rgb(61, 61, 61);
+}
+
+.box span{
+    color: rgba(255, 230, 0, 0.904);
+}
+
+.box button, .trd-section button,
+.last-section button{
+    cursor: pointer;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #3556dbd3;
+    border: 1px solid #3556dbd3;
+    border-radius: 3px;
+    padding: 10px;
+    color: #fff;
+}
+
+/* 2ND SECTION */
+
+.snd-section img, .trd-section img,
+.last-section img{
+    width: 100%;
+    height: 100%;
+}
+
+.div1{
+    position: relative;
+    text-align: center;
+}
+
+.istimg{
+    display: none;
+    position: absolute;
+    bottom: 2px;
+    font-family: 'Questrial', sans-serif;
+    font-family: 1.5rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    font-weight: bold;
+    width: 100%;
+    padding: 35px;
+    background-color: #fff;
+}
+
+.istimg:hover{
+    display: unset;
+}
+
+.istimg i{
+    position: absolute;
+    right: 20px;
+    color: #3556dbd3;    
+}
+
+/* 3RD SECTION */
+
+.trd-section{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.trd-div1{
+    width: 60%;
+    margin: 0 auto;
+}
+
+.trd-div1 h2, .trd-div2 h3,
+.istem, .last-section h3{
+    font-family: 'Questrial', sans-serif;
+    color: #000;
+    font-size: 2.5rem;
+    font-weight: bolder;
+    word-spacing: 3px;
+    letter-spacing: .5px;
+}
+
+.trd-div2{
+    padding: 4px;
+    border: .5px solid #d5ddffd3;
+}
+
+.trd-div2 div{
+    width: 74%;
+    margin: 35px auto 55px;
+}
+
+.trd-div2 h3{
+    font-size: 1.7rem;
+    word-spacing: 1px;
+    line-height: 1.2;
+}
+
+.trd-div2 p{
+ font-size: 1.13rem;
+ word-spacing: 0;
+ margin-top: 10px;
+}
+
+.trd-section button{
+    margin: 70px 0;
+}
+
+/* TESTIMONIAL SECTION */
+
+.testimonial{
+    text-align: center;
+    padding: 50px 0;
+}
+
+.testimonial .row{
+    background-color: rgb(253, 244, 245);
+    padding: 50px 0;
+}
+
+
+.testimonial span{
+    font-size: 6rem;
+    color: #3556dbd3;
+}
+
+.testimonial p{
+    width: 70%;
+    margin: 0 auto 50px;
+    font-size: 2rem;
+}
+
+.t-div{
+    position: relative;
+}
+
+.testimonial img{
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+
+.istem, .sndem{
+    position: absolute;
+    bottom: 30%;
+    left: 57%;
+    margin-bottom: 5px;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+
+.sndem{
+    bottom: 0;
+    font-weight: normal;
+}
+
+/* LAST SECTION */
+
+.last-section{
+    margin: 100px 0;
+}
+
+.last-section .col{
+    padding-right: 40px;
+}
+
+.last-section h3{
+    font-size: 2.3rem;
+    line-height: 1.3;
+}
+
+/* FOOTER SECTION */
+
+.footer{
+    text-align: center;
+    background-color: rgb(17, 17, 17);
+    color: #fff;
+    padding: 70px 0;
+    font-family: 'Questrial', sans-serif;
+    font-size: 1.2rem;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+    line-height: 2;
+}
+
+.footer i{
+    color: #ec0101;
+}
